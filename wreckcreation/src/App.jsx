@@ -4,25 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import banner from './assets/banner.jpg'
 
-import 'bootstrap/dist/css/bootstrap.css';
-
-import VideoBanner from './Landing-Page-Components/VideoBanner'
-import Services from './Landing-Page-Components/Services'
-import ImageBanner from './Landing-Page-Components/ImageBanner'
-import Introduction from './Landing-Page-Components/Introduction'
+import VideoBanner from './Home/VideoBanner'
+import Services from './Home/Services'
+import ImageBanner from './Home/ImageBanner'
+import Introduction from './Home/Introduction'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-     <div className="App">
+   <div className="App">
         
       <ImageBanner />  
       <Introduction />
       <VideoBanner />
       <Services />
  
-    </div>
+   </div>
   )
 }
 
