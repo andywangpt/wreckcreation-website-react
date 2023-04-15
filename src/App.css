@@ -69,3 +69,53 @@ iframe {
    width: 100%;
    height: 100%;
 }
+
+.btn {
+   font-size: 2rem;
+   font-weight: 700;
+   margin: 15px;
+   padding: 0.5em 1em;
+   color: var(--clr-accent);
+   background-color: var(--clr-rgba);
+   border: 10px solid var(--clr-accent);
+   border-radius: 5px;
+
+   /* transition-property: transform; 
+   transition-duration: 0.3s;
+   transition-timing-function: ease-in;
+   transition-delay: 0ms; */
+
+   transition: transform 0.3s;
+}
+
+.btn:hover {
+   transform: translateY(-10px);
+   background-color: orange;
+   color: blue;
+}
+
+@keyframes slideInLeft {
+   from {
+      transform: translateX(-300px);
+   }
+   to {
+      transform: translateX(0px);
+   }
+   
+}
+
+.heading-1 {
+   animation-name: slideInLeft;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-delay: ;
+   animation-iteration-count: ;
+   animation-direction: ;
+   animation-fill-mode: ;
+
+   
+}
+
+.slideInLeft {
+   animation: slideInLeft 1s ease;
+}

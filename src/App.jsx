@@ -1,24 +1,38 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import banner from './assets/banner.jpg'
 
-import VideoBanner from './Home/VideoBanner'
-import Services from './Home/Services'
-import ImageBanner from './Home/ImageBanner'
-import Introduction from './Home/Introduction'
+
+
+import NavBar from "./Components/NavBar";
+import Training from './Pages/Training/TrainingPage'
+import Home from './Pages/Home/HomePage'
+import WebDev from './Pages/WebDev/WebDev';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <div className="App">
+      <div>
+           <Router>
+              <NavBar />
+            <Routes>
+               <Route exact path="/" element={<Home />} />
+               <Route path="/training" element={<Training />} />
+               <Route path="/webdev" element={<WebDev />} />
+            </Routes>
+         </Router>
+
+
+      </div>
+      
         
-      <ImageBanner />  
-      <Introduction />
-      <VideoBanner />
-      <Services />
  
    </div>
   )
