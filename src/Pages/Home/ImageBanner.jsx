@@ -1,5 +1,5 @@
 import React from 'react'
-import clubsCrop from '../../Assets/clubs-crop.jpg'
+import clubsCrop from './Assets/clubs-crop.jpg'
 
 function ImageBanner() {
   return (
