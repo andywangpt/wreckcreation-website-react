@@ -12,6 +12,8 @@ function Introduction() {
          <p>
             A Creative Fitness Business that helps you achieve your health and fitness goals through Personal
             Training, Video Content Creation, Web Development, and other online health related services.
+
+            Unreal training potential.  More than just weight lifting.
          </p>
       </div>
    )
