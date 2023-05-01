@@ -11,7 +11,7 @@ function Home() {
       <ImageBanner />  
       <Introduction />  
       
-      <button className='btn'>Add Count</button>  
+      <button className='btn btn-primary'>Add Count</button>  
       <VideoBanner />
       <Services />
      </div>
