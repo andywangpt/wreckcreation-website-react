@@ -1,25 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 function NavBar() {
 	return (
 		<>
-			<nav className="navbar navbar-dark navbar-expand-sm py-0">
-				<div className="navbar-collapse collapse" id="navbarCollapse">
-					<ul className="nav navbar-nav mr-auto text-uppercase">
-						<li className="navbar-item m-1">
-							<Link className="nav-link" to="/">
+			<nav className="bg-gray-800 p-2 rounded-md">
+				<div className="flex items-center justify-between">
+					<ul className="flex items-center space-x-4 text-white uppercase">
+						<li className="px-3 py-2 rounded-md hover:bg-gray-700">
+							<Link to="/">
 								Home
 							</Link>
 						</li>
-						<li className="navbar-item m-1">
-							<Link className="nav-link" to="/training">
+						<li className="px-3 py-2 rounded-md hover:bg-gray-700">
+							<Link to="/training">
 								Training
 							</Link>
 						</li>
-						<li className="navbar-item m-1">
-							<Link className="nav-link" to="/webdev">
+						<li className="px-3 py-2 rounded-md hover:bg-gray-700">
+							<Link to="/webdev">
 								Web Development
 							</Link>
 						</li>
