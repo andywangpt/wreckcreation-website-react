@@ -14,6 +14,8 @@ import NavBar from "./Components/NavBar";
 import Training from './Pages/Training/TrainingPage'
 import Home from './Pages/Home/HomePage'
 import WebDev from './Pages/WebDev/WebDev';
+import Creative from './Pages/Creative/CreativePage'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +28,7 @@ function App() {
             <Routes>
                <Route exact path="/" element={<Home />} />
                <Route path="/training" element={<Training />} />
+               <Route path='/creative' element={<Creative /> } />
                <Route path="/webdev" element={<WebDev />} />
             </Routes>
          </Router>

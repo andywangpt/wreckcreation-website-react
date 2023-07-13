@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+   mode: 'jit',
   content: [
     "index.html",
     "./src/Components/NavBar.jsx",
@@ -7,7 +8,11 @@ export default {
     "./src/main.jsx",
   ],
   theme: {
-    extend: {},
+     extend: { 
+        colors: { 
+          primary: "blue",
+       }
+    },
   },
   plugins: [],
 };
