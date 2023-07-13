@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-1000">
       <section id="training" className="bg-gray-200 p-4 rounded-md">
          <h3 className="text-lg font-semibold text-blue-800">Achieve Your Goals:</h3>
          <h2 className="text-2xl font-bold text-blue-600">Personal Training</h2>
@@ -18,7 +18,8 @@ function Services() {
       <section id="software" className="bg-gray-200 p-4 rounded-md">
          <h2 className="text-lg font-semibold text-blue-800">Increase Visibility:</h2>
          <p className="mt-2 text-gray-700">We offer custom software development services to help businesses improve their visibility and maximize their
-            outreach potential.</p>
+              outreach potential.</p>
+           <h1 className='text-3xl font-bold-underline'>hello world</h1>
       </section>
     </div>
   )

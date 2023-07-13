@@ -7,7 +7,6 @@ import Introduction from './Introduction'
 function Home() {
    return (
      <div>
-      <h1 className='heading-1'>WRECKCREATION</h1>
       <ImageBanner />  
       <Introduction />  
       

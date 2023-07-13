@@ -7,6 +7,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import banner from './assets/banner.jpg'
 
+import 'tailwindcss/tailwind.css';
 
 
 import NavBar from "./Components/NavBar";
