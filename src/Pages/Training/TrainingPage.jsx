@@ -2,7 +2,19 @@ import React from 'react'
 
 function Training() {
   return (
-    <div>Personal Training Page</div>
+     <div>
+        <h1>Training Image Banner</h1>
+
+         {/* TRAINING DESCRIPTION AND COPY
+
+         TRAINING PRICING   
+
+        CONTACT     
+        
+        MAP OF REFLEX    */}
+
+
+      </div>
   )
 }
 
