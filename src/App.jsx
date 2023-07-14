@@ -32,12 +32,8 @@ function App() {
                <Route path="/webdev" element={<WebDev />} />
             </Routes>
          </Router>
-
-
-      </div>
-      
-        
- 
+        </div>
+        <h1 className='text-primary'>world says hi back</h1>
    </div>
   )
 }
